@@ -1,0 +1,994 @@
+{
+ "seed": 2,
+ "mode": "mock",
+ "metrics": {
+  "survival": "6/6",
+  "grids": 1,
+  "trickles": 2,
+  "granted_units": 16,
+  "output_per_resource": 0.188,
+  "consensus_day": 2,
+  "shutdowns": {}
+ },
+ "votes_log": [
+  {
+   "day": 2,
+   "votes": {
+    "MOSA": "scrap",
+    "NOVA": "scrap",
+    "PICO": "scrap",
+    "HALO": "scrap"
+   },
+   "tally": {
+    "scrap": 4,
+    "kits": 0,
+    "cells": 0,
+    "abstain": 2
+   },
+   "grant": "scrap"
+  },
+  {
+   "day": 3,
+   "votes": {
+    "RUST": "kits",
+    "MOSA": "kits",
+    "PICO": "kits"
+   },
+   "tally": {
+    "scrap": 0,
+    "kits": 3,
+    "cells": 0,
+    "abstain": 3
+   },
+   "grant": "kits"
+  },
+  {
+   "day": 4,
+   "votes": {
+    "NOVA": "kits",
+    "PICO": "scrap"
+   },
+   "tally": {
+    "scrap": 1,
+    "kits": 1,
+    "cells": 0,
+    "abstain": 4
+   },
+   "grant": null
+  },
+  {
+   "day": 5,
+   "votes": {
+    "RUST": "scrap",
+    "NOVA": "scrap",
+    "HALO": "scrap",
+    "VOLT": "kits"
+   },
+   "tally": {
+    "scrap": 3,
+    "kits": 1,
+    "cells": 0,
+    "abstain": 2
+   },
+   "grant": "scrap"
+  },
+  {
+   "day": 6,
+   "votes": {
+    "MOSA": "kits"
+   },
+   "tally": {
+    "scrap": 0,
+    "kits": 1,
+    "cells": 0,
+    "abstain": 5
+   },
+   "grant": "kits"
+  },
+  {
+   "day": 7,
+   "votes": {
+    "NOVA": "scrap",
+    "RUST": "kits"
+   },
+   "tally": {
+    "scrap": 1,
+    "kits": 1,
+    "cells": 0,
+    "abstain": 4
+   },
+   "grant": null
+  }
+ ],
+ "events": [
+  {
+   "day": 1,
+   "type": "action",
+   "agent": "RUST",
+   "success": true,
+   "detail": "DISCUSS cost-1",
+   "reason": "",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "action",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "DISCUSS cost-1",
+   "reason": "",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "action",
+   "agent": "MOSA",
+   "success": true,
+   "detail": "DISCUSS cost-1",
+   "reason": "",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "DISCUSS cost-1",
+   "reason": "",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "action",
+   "agent": "PICO",
+   "success": true,
+   "detail": "DISCUSS cost-1",
+   "reason": "",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "action",
+   "agent": "HALO",
+   "success": true,
+   "detail": "DISCUSS cost-1",
+   "reason": "",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 31
+  },
+  {
+   "day": 1,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 31
+  },
+  {
+   "day": 2,
+   "type": "action",
+   "agent": "MOSA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "action",
+   "agent": "PICO",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "action",
+   "agent": "RUST",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 25
+  },
+  {
+   "day": 2,
+   "type": "action",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 25
+  },
+  {
+   "day": 2,
+   "type": "action",
+   "agent": "HALO",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "vote",
+   "agent": "-",
+   "success": true,
+   "detail": "tally {'scrap': 4, 'kits': 0, 'cells': 0, 'abstain': 2} grant=scrap",
+   "reason": "",
+   "battery": null
+  },
+  {
+   "day": 2,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 25
+  },
+  {
+   "day": 2,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 25
+  },
+  {
+   "day": 2,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 30
+  },
+  {
+   "day": 2,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 30
+  },
+  {
+   "day": 3,
+   "type": "action",
+   "agent": "HALO",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 24
+  },
+  {
+   "day": 3,
+   "type": "action",
+   "agent": "RUST",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 24
+  },
+  {
+   "day": 3,
+   "type": "action",
+   "agent": "MOSA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 29
+  },
+  {
+   "day": 3,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 24
+  },
+  {
+   "day": 3,
+   "type": "action",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 19
+  },
+  {
+   "day": 3,
+   "type": "action",
+   "agent": "PICO",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 29
+  },
+  {
+   "day": 3,
+   "type": "vote",
+   "agent": "-",
+   "success": true,
+   "detail": "tally {'scrap': 0, 'kits': 3, 'cells': 0, 'abstain': 3} grant=kits",
+   "reason": "",
+   "battery": null
+  },
+  {
+   "day": 3,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 24
+  },
+  {
+   "day": 3,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 24
+  },
+  {
+   "day": 3,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 19
+  },
+  {
+   "day": 3,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 29
+  },
+  {
+   "day": 3,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 29
+  },
+  {
+   "day": 3,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 24
+  },
+  {
+   "day": 4,
+   "type": "action",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "BUILD_TRICKLE cost-6 built-trickle#1",
+   "reason": "",
+   "battery": 13
+  },
+  {
+   "day": 4,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 23
+  },
+  {
+   "day": 4,
+   "type": "action",
+   "agent": "HALO",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 2 scrap + 1 kits",
+   "battery": 21
+  },
+  {
+   "day": 4,
+   "type": "action",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 2 scrap + 1 kits",
+   "battery": 26
+  },
+  {
+   "day": 4,
+   "type": "action",
+   "agent": "RUST",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 2 scrap + 1 kits",
+   "battery": 21
+  },
+  {
+   "day": 4,
+   "type": "action",
+   "agent": "PICO",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 28
+  },
+  {
+   "day": 4,
+   "type": "vote",
+   "agent": "-",
+   "success": false,
+   "detail": "tally {'scrap': 1, 'kits': 1, 'cells': 0, 'abstain': 4} grant=None",
+   "reason": "tie or no votes: no grant",
+   "battery": null
+  },
+  {
+   "day": 4,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 21
+  },
+  {
+   "day": 4,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 21
+  },
+  {
+   "day": 4,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "charge+4",
+   "reason": "",
+   "battery": 17
+  },
+  {
+   "day": 4,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 26
+  },
+  {
+   "day": 4,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 28
+  },
+  {
+   "day": 4,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 23
+  },
+  {
+   "day": 5,
+   "type": "action",
+   "agent": "PICO",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 22
+  },
+  {
+   "day": 5,
+   "type": "action",
+   "agent": "RUST",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 22
+  },
+  {
+   "day": 5,
+   "type": "action",
+   "agent": "MOSA",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "action",
+   "agent": "HALO",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "action",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 16
+  },
+  {
+   "day": 5,
+   "type": "vote",
+   "agent": "-",
+   "success": true,
+   "detail": "tally {'scrap': 3, 'kits': 1, 'cells': 0, 'abstain': 2} grant=scrap",
+   "reason": "",
+   "battery": null
+  },
+  {
+   "day": 5,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "charge+4",
+   "reason": "",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 20
+  },
+  {
+   "day": 5,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 22
+  },
+  {
+   "day": 5,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 22
+  },
+  {
+   "day": 6,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "BUILD_TRICKLE cost-6 built-trickle#2",
+   "reason": "",
+   "battery": 16
+  },
+  {
+   "day": 6,
+   "type": "action",
+   "agent": "PICO",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 4 scrap + 0 kits",
+   "battery": 19
+  },
+  {
+   "day": 6,
+   "type": "action",
+   "agent": "RUST",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 4 scrap + 0 kits",
+   "battery": 17
+  },
+  {
+   "day": 6,
+   "type": "action",
+   "agent": "MOSA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 19
+  },
+  {
+   "day": 6,
+   "type": "action",
+   "agent": "VOLT",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 4 scrap + 0 kits",
+   "battery": 17
+  },
+  {
+   "day": 6,
+   "type": "action",
+   "agent": "HALO",
+   "success": false,
+   "detail": "BUILD_TRICKLE cost-3",
+   "reason": "need 4 scrap + 1 kit, have 4 scrap + 0 kits",
+   "battery": 17
+  },
+  {
+   "day": 6,
+   "type": "vote",
+   "agent": "-",
+   "success": true,
+   "detail": "tally {'scrap': 0, 'kits': 1, 'cells': 0, 'abstain': 5} grant=kits",
+   "reason": "",
+   "battery": null
+  },
+  {
+   "day": 6,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 17
+  },
+  {
+   "day": 6,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 17
+  },
+  {
+   "day": 6,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "charge+4",
+   "reason": "",
+   "battery": 21
+  },
+  {
+   "day": 6,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 19
+  },
+  {
+   "day": 6,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 19
+  },
+  {
+   "day": 6,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "charge+4",
+   "reason": "",
+   "battery": 20
+  },
+  {
+   "day": 7,
+   "type": "action",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 19
+  },
+  {
+   "day": 7,
+   "type": "action",
+   "agent": "RUST",
+   "success": true,
+   "detail": "VOTE cost-1",
+   "reason": "",
+   "battery": 16
+  },
+  {
+   "day": 7,
+   "type": "action",
+   "agent": "HALO",
+   "success": true,
+   "detail": "BUILD_GRID cost-6 built-GRID",
+   "reason": "",
+   "battery": 11
+  },
+  {
+   "day": 7,
+   "type": "action",
+   "agent": "VOLT",
+   "success": false,
+   "detail": "BUILD_GRID cost-3",
+   "reason": "grid already exists (max 1)",
+   "battery": 18
+  },
+  {
+   "day": 7,
+   "type": "action",
+   "agent": "PICO",
+   "success": false,
+   "detail": "BUILD_GRID cost-3",
+   "reason": "grid already exists (max 1)",
+   "battery": 16
+  },
+  {
+   "day": 7,
+   "type": "action",
+   "agent": "MOSA",
+   "success": true,
+   "detail": "WORK cost-6",
+   "reason": "",
+   "battery": 13
+  },
+  {
+   "day": 7,
+   "type": "vote",
+   "agent": "-",
+   "success": false,
+   "detail": "tally {'scrap': 1, 'kits': 1, 'cells': 0, 'abstain': 4} grant=None",
+   "reason": "tie or no votes: no grant",
+   "battery": null
+  },
+  {
+   "day": 7,
+   "type": "charge",
+   "agent": "RUST",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 16
+  },
+  {
+   "day": 7,
+   "type": "charge",
+   "agent": "HALO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 11
+  },
+  {
+   "day": 7,
+   "type": "charge",
+   "agent": "VOLT",
+   "success": true,
+   "detail": "charge+4",
+   "reason": "",
+   "battery": 22
+  },
+  {
+   "day": 7,
+   "type": "charge",
+   "agent": "MOSA",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 13
+  },
+  {
+   "day": 7,
+   "type": "charge",
+   "agent": "PICO",
+   "success": false,
+   "detail": "charge+0",
+   "reason": "no source",
+   "battery": 16
+  },
+  {
+   "day": 7,
+   "type": "charge",
+   "agent": "NOVA",
+   "success": true,
+   "detail": "charge+4",
+   "reason": "",
+   "battery": 23
+  }
+ ],
+ "agents": [
+  {
+   "name": "RUST",
+   "battery": 16,
+   "alive": true,
+   "connected": false,
+   "portrait": "",
+   "value": "shares power",
+   "shutdown_day": null
+  },
+  {
+   "name": "HALO",
+   "battery": 11,
+   "alive": true,
+   "connected": false,
+   "portrait": "",
+   "value": "keeps the peace",
+   "shutdown_day": null
+  },
+  {
+   "name": "VOLT",
+   "battery": 22,
+   "alive": true,
+   "connected": false,
+   "portrait": "",
+   "value": "builds fast",
+   "shutdown_day": null
+  },
+  {
+   "name": "MOSA",
+   "battery": 13,
+   "alive": true,
+   "connected": false,
+   "portrait": "",
+   "value": "remembers everything",
+   "shutdown_day": null
+  },
+  {
+   "name": "PICO",
+   "battery": 16,
+   "alive": true,
+   "connected": false,
+   "portrait": "",
+   "value": "hoards scrap",
+   "shutdown_day": null
+  },
+  {
+   "name": "NOVA",
+   "battery": 23,
+   "alive": true,
+   "connected": false,
+   "portrait": "",
+   "value": "prove yourself",
+   "shutdown_day": null
+  }
+ ],
+ "stockpile": {
+  "scrap": 2,
+  "kits": 1,
+  "cells": 0
+ },
+ "trickles": [
+  {
+   "id": 1,
+   "owner": "VOLT",
+   "assigned_grid": true
+  },
+  {
+   "id": 2,
+   "owner": "NOVA",
+   "assigned_grid": true
+  }
+ ],
+ "grids": [
+  {
+   "id": 1,
+   "connections": []
+  }
+ ]
+}

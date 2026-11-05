@@ -1,0 +1,5 @@
+# NULL SOCIETY runs on Python 3.10+ stdlib only (no installs needed).
+# Optional, for live Meta Model API smoke tests with nicer output:
+# requests>=2.31
+# Optional, for pytest-style runs (tests also run via plain python):
+# pytest>=8
